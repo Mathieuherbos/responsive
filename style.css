@@ -1,16 +1,32 @@
 body
 {
-    background-color: red;
+  background-color: red;
 }
-@media only screen and (max-width: 768px) 
+@media only screen and (min-width: 300px) 
 {
-    body {
+    body 
+    {
       background-color:green;
-         }
+    }
 }
 @media only screen and (min-width: 768px) 
 {
-    body {
+    body 
+    {
       background-color: blue;
-         }
+    }
+}
+@media screen and (max-width: 300px) 
+{
+     .medium 
+     {
+       display: none;
+    }
+}
+@media screen and (max-width: 768px) 
+{
+     .large 
+     {
+       display: none;
+    }
 }
