@@ -1,8 +1,9 @@
+/*Couleur*/
 body
 {
   background-color: red;
 }
-@media only screen and (min-width: 300px) 
+@media only screen and (min-width: 550px) 
 {
     body 
     {
@@ -16,17 +17,26 @@ body
       background-color: blue;
     }
 }
-@media screen and (max-width: 300px) 
-{
-     .medium 
-     {
-       display: none;
-    }
+/*hide text*/
+@media only screen and (min-width: 550px) {
+  #small {
+    display: none;
+  }
 }
-@media screen and (max-width: 768px) 
-{
-     .large 
-     {
-       display: none;
-    }
+@media only screen and (max-width: 550px) {
+  #medium {
+    display: none;
+  }
 }
+@media only screen and (min-width: 768px) {
+  #medium {
+    display: none;
+  }
+}
+
+
+  @media only screen and (max-width: 768px) {
+    #large {
+      display: none;
+    }
+  }
