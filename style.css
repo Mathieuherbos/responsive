@@ -57,3 +57,20 @@ body
       font-size: 40px;
     }
 }
+/* exo 4*/
+[class*="div"] 
+{
+  width: 100%;
+}  
+@media screen and (min-width: 550px) 
+{
+.div1{width:66%;}
+.div2{width:33%;}
+.div3{width:100%;}
+}
+@media screen and (min-width: 768px) 
+{
+  .div1{width:33%;}
+  .div2{width:33%;}
+  .div3{width:33%;}
+}
